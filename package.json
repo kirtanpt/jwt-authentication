@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "latest",
+    "body-parser": "latest",
+    "express": "latest",
+    "helmet": "latest",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "latest",
+    "nodemailer": "latest",
+    "otp-generator": "latest",
+    "passport": "^0.4.1",
+    "passport-jwt": "latest",
+    "validator": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
